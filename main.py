@@ -53,3 +53,12 @@ Kurs_Basliklari = ['Yaılım Geliştirici Yetiştirme Kampı(JAVA + REACT)',
                    'Senior Yaılım Geliştirici Yetiştirme Kampı(.Net)' ]
 print(f'Kodlama io sitesimde birden fazla veri tipi kullanılmıştır. Bunlar ise:\nString = {Ust_Baslik}\n'
       f'Integer = {Kullanici_Id}\nBoolean = {Kursa_Kayıtlı}\n ve List e şeklindedir = {Kurs_Basliklari}')
+#----------------Şart Blokları------------------#
+Tamamlama_Yüzdesi = 75
+Kursa_Kayıtlımı= True
+if(Tamamlama_Yüzdesi > 70 and Kursa_Kayıtlımı == True):
+    print('Sınava Girebilir')
+elif(Tamamlama_Yüzdesi > 70 or Kursa_Kayıtlımı == True):
+    print('Tamamlama yüzdesi ni veya Kursa Kaydını kontrol ediniz')
+else :
+    print('Sınava Giremez!!!')
